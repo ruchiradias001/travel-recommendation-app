@@ -16,35 +16,35 @@ const routes: Routes = [
     component:HomeComponent
   },
   {
-    path:"/places",
+    path:"places",
     component:PlacesComponent
   },
   {
-    path:"/restaurents",
+    path:"restaurents",
     component:RestaurentsComponent
   },
   {
-    path:"/recommendations",
+    path:"recommendations",
     component:RecommendationsComponent
   },
   {
-    path:"/market-place",
+    path:"market-place",
     component:MarketPlaceComponent
   },
   {
-    path:"/my-plan",
+    path:"my-plan",
     component:MyPlanComponent
   },
   {
-    path:"/my-favorites",
+    path:"my-favorites",
     component:MyFavotitesComponent
   },
   {
-    path:"/about",
+    path:"about",
     component:AboutComponent
   },
   {
-    path:"/page-not-found",
+    path:"page-not-found",
     component:Page404Component
   },
   {
