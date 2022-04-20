@@ -12,6 +12,8 @@ import { MyPlanComponent } from './pages/my-plan/my-plan.component';
 import { MyFavotitesComponent } from './pages/my-favotites/my-favotites.component';
 import { AboutComponent } from './pages/about/about.component';
 import { Page404Component } from './pages/page404/page404.component';
+import { NavbarComponent } from './common/navbar/navbar.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { Page404Component } from './pages/page404/page404.component';
     MyPlanComponent,
     MyFavotitesComponent,
     AboutComponent,
-    Page404Component
+    Page404Component,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
