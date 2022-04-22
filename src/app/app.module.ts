@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { MatButtonModule } from '@angular/material/button';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -14,6 +16,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { Page404Component } from './pages/page404/page404.component';
 import { NavbarComponent } from './common/navbar/navbar.component';
 import { FooterComponent } from './common/footer/footer.component';
+
+
 
 @NgModule({
   declarations: [
@@ -33,6 +37,7 @@ import { FooterComponent } from './common/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

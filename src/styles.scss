@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Prompt:wght@400;600&display=swap');
+
+html
+{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+
+h1
+{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+button
+{
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.flex-center-center
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-left-center
+{
+	display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.flex-column
+{
+    flex-direction: column;
+}

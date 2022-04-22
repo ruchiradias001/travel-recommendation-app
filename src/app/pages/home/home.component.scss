@@ -1,0 +1,90 @@
+.home-row
+{
+    min-height: 90vh;
+}
+
+.home-row:nth-child(even)
+{
+    background-color: #f8f8f8;
+}
+
+.img-box
+{
+    width: 450px;
+    height: 450px;
+}
+
+.img-box-1, 
+.img-box-2, 
+.img-box-3, 
+.img-box-4, 
+.img-box-5,
+.img-box-6, 
+.img-box-7, 
+.img-box-8, 
+.img-box-9
+{
+    background-position: center;
+    background-size: cover;
+}
+
+.img-box-2, 
+.img-box-3, 
+.img-box-4, 
+.img-box-5
+{
+    border: 2px solid white;
+}
+
+.img-box-6, 
+.img-box-7, 
+.img-box-8, 
+.img-box-9
+{
+    border: 2px solid #f8f8f8;
+}
+
+.img-box-1
+{
+    background-image: url('../../../assets/image1.png');
+}
+
+.img-box-2
+{
+    background-image: url('../../../assets/image2.png');
+}
+
+.img-box-3
+{
+    background-image: url('../../../assets/image3.png');
+}
+
+.img-box-4
+{
+    background-image: url('../../../assets/image4.png');
+}
+
+.img-box-5
+{
+    background-image: url('../../../assets/image5.png');
+}
+
+.img-box-6
+{
+    background-image: url('../../../assets/image6.png');
+}
+
+.img-box-7
+{
+    background-image: url('../../../assets/image7.png');
+}
+
+.img-box-8
+{
+    background-image: url('../../../assets/image8.png');
+}
+
+.img-box-9
+{
+    background-image: url('../../../assets/image9.png');
+}
